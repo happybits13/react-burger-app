@@ -5,7 +5,6 @@ import NavigationItems from '../NavigationItems/NavigationItems';
 import classes from './SideDrawer.module.css';
 
 import Backdrop from '../../UI/Backdrop/Backdrop'
-import DrawerToggle from '../SideDrawer/DrawerToggle/DrawToggle'
 
 const SideDrawer = (props) => {
     let attachedClasses = [classes.SideDrawer, classes.Close];
