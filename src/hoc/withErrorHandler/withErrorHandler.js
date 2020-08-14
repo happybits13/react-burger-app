@@ -4,7 +4,6 @@ import Modal from '../../components/UI/Modal/Modal';
 
 const withErrorHandler = ( WrappedComponent, axiosInstance ) => {
     return class extends Component {
-
         state = {
             error: null
         }
